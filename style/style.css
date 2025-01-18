@@ -49,64 +49,111 @@ font-weight: 700;
     letter-spacing: 0%;
     text-align: left;
 }
-#card-box{
-width: 717px;
-height: 182px;
-display: flex;
-flex-direction: column; 
-margin: 45px 0px;
+#main-card{
+    width: 1100px;
+    height: 324px; 
+}
+.pillars{
 
 }
-.card-title{
-    color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 40px;
-font-weight: 400;
-line-height: 27px;
-letter-spacing: 0%;
-text-align: left;
-margin: 18px 0px;
- 
+.all-card{
+    display: flex;
+    gap:30px;
+    
+   
+    
 }
-.card-container{
-    width: 717px;
-    height: 137px;
-    margin: 14px 0px;
-
-
-
-
-}
-.card{
-box-sizing: border-box;
-border: 1px solid rgba(14, 14, 14, 0.15);
-border-radius: 9px;
-background: rgb(255, 255, 255);
-margin: 0px 14px;
-width: 170px;
-
+.one-card{
+    width: 302px;
+    height: 244px;
+    padding: 14px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 9px;
+    background: rgb(255, 255, 255);
+    margin-top: 48px;
     
     
-
 }
-.card .image-box{
+.card-img{
     width: 28px;
-height: 30px;
-left: 8px;
-top: 1px;
-background: rgb(129, 180, 252);
+    height: 30px;
+    left: 7px;
+    top: 0.56px
     
+}
+.desc{
+    width: 143px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin-top: 30px;
+}
+.card-name{
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+margin-bottom: 14px;
 }
 .description{
-    color: rgba(14, 14, 14, 0.7);
-    color: rgba(14, 14, 14, 0.8);
+color: rgba(14, 14, 14, 0.8);
 font-family: Fira Sans;
-font-size: 11px;
-font-weight: 400;
-line-height: 14px;
+font-size: 16px;
+font-weight: 300;
 letter-spacing: 0%;
 text-align: left;
-margin: 7px 0px;
-
 }
-
+#vision{
+    width: 1100px;
+    height: 765px;
+    margin-top: 80px;
+}
+.digtal{
+    width:230;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 18px;
+    margin-top: 26px;
+}
+.dgm{
+    display: flex;
+    gap: 50px; 
+     
+}
+.heading{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin-top: 30px;
+}
+.learn{
+    width: 100px;
+    height: 41px;
+    padding: 7px 11px 7px 11px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    border: none;
+    margin: 15px;
+}
+.green{
+background: rgb(198, 228, 214);
+}
+.grn{
+background: rgb(9, 161, 92);
+}
+.orange{
+    background: rgb(247, 235, 207);
+}
+.org{
+    background: rgb(255, 194, 57);
+}
