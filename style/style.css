@@ -59,21 +59,17 @@ font-weight: 700;
 .all-card{
     display: flex;
     gap:30px;
-    
-   
-    
 }
-.one-card{
-    width: 302px;
-    height: 244px;
+.news-one{
     padding: 14px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 9px;
     background: rgb(255, 255, 255);
     margin-top: 48px;
-    
-    
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;   
 }
 .card-img{
     width: 28px;
@@ -157,3 +153,38 @@ background: rgb(9, 161, 92);
 .org{
     background: rgb(255, 194, 57);
 }
+.news-two{
+padding: 14px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 9px;
+    background: rgb(255, 255, 255);
+    margin-top: 48px;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+.one-card{
+width: 100%;
+height:auto;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+margin: 18px 0px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 9px;
+background: rgb(255, 255, 255);
+padding: 14px;
+   
+}
+.salelite{
+width: 229px;
+height: 171px;
+}
+.date{
+    margin: 8px;
+    margin: 12px 0px;
+}
+
