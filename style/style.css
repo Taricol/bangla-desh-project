@@ -140,6 +140,7 @@ text-align: left;
     background: rgb(84, 144, 245);
     border: none;
     margin: 15px;
+    color: rgb(255, 255, 255);
 }
 .green{
 background: rgb(198, 228, 214);
@@ -186,5 +187,40 @@ height: 171px;
 .date{
     margin: 8px;
     margin: 12px 0px;
+}
+#donate{
+width: 100%;
+height:auto;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+padding: 0px;
+margin: 45px 0px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+.amount{
+width: 136px;
+height: 128px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 10px;
+background: rgb(255, 255, 255);
+cursor: pointer;
+transition: 3s;
+}
+.other{
+    padding:12px 22px 12px 22px;
+    box-sizing: border-box;
+background: rgb(255, 255, 255);
+border: none;
 }
 
